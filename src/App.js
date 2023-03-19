@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import data from './data/navBarData.json';
+import Navbar from './Components/Navbar';
+import MainInfo from './Components/MainInfo';
+import WhyUs from './Components/WhyUs';
+import Footer from './Components/Footer';
+import ScrollEffect from './Components/ScrollEffect';
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ScrollEffect />
+      <Navbar data={data} />
+      <MainInfo />
+      <WhyUs />
+      <Footer />
+    </>
   );
 }
 
