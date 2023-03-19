@@ -18,7 +18,7 @@ function MainInfo() {
                     </motion.button>
                 </div>
                 <motion.div>
-                    <img src={console} alt="img" className="w-3/5 m-auto mt-6 ml-10"></img>
+                    <img src={console} alt="img" className="w-3/5 m-auto mt-6 ml-0"></img>
                 </motion.div>
             </div>
         </>
