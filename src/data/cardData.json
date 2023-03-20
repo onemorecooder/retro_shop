@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Recambios",
+        "subtitle": "Encuentra toda clase de recambios",
+        "text": "Aquí podrás encontrar todos los recambios que no pudiste encontrar en ningún otro sitio a precio de coste"
+    },
+    {
+        "id": 2,
+        "title": "Consolas",
+        "subtitle": "Gran abanico de consolas retro ",
+        "text": "Aquí podrás encontrar todos los recambios que no pudiste encontrar en ningún otro sitio a precio de coste"
+    },
+    {
+        "id": 3,
+        "title": "Foro",
+        "subtitle": "Resuelve todas tus dudas en nuestro foro",
+        "text": "Aquí podrás encontrar todos los recambios que no pudiste encontrar en ningún otro sitio a precio de coste"
+    }
+]
