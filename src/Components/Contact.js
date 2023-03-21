@@ -10,19 +10,19 @@ function Contact() {
             <div className="m-6">
               <input
                 placeholder="Name"
-                className="w-full h-10 mb-4 rounded"
+                className="w-full h-10 mb-4 rounded bg-green-100 px-4"
                 type="text"
               ></input>
               <br></br>
               <input
                 placeholder="Email"
-                className="w-full h-10 mb-4 rounded"
+                className="w-full h-10 mb-4 rounded bg-green-100 px-4"
                 type="email"
               ></input>
               <br></br>
               <textarea
                 placeholder="Mensaje"
-                className="w-full mb-4 rounded h-34"
+                className="w-full mb-4 rounded h-34 bg-green-100 px-4 pt-2"
                 type="text"
               ></textarea>
               <motion.button
@@ -38,7 +38,7 @@ function Contact() {
               </motion.button>
             </div>
           </div>
-          <div className="grid grid-cols-2 items-center w-80 m-auto">
+          <div className="grid grid-cols-2 items-center w-80 m-auto my-6">
             <div>
               <div className="speaker"></div>
               <motion.div
@@ -94,14 +94,14 @@ function Contact() {
           <p className="mb-2">
             <b>Teléfono:</b> (<b>+34</b>) 687 123 037
           </p>
-          <p className="mb-4">
+          <p className="mb-6">
             <b>E-mail:</b> retroshop@gmail.com
           </p>
           <iframe
             title="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.4175448731!2d-122.48249113349291!3d47.612942764418506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20Washington%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1679420199232!5m2!1ses!2ses"
             width="100%"
-            height="300"
+            height="320"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
