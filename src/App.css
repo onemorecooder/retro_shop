@@ -1,3 +1,106 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.console-father-two {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.speaker {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 12px;
+  border-radius: 5px;
+  background-color: #053726;
+}
+
+.speaker-two {
+  margin: auto;
+  width: 50px;
+  height: 12px;
+  border-radius: 5px;
+  background-color: #02156d;
+}
+
+.cross {
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.horizontal,
+.vertical {
+  border-radius: 6px;
+  position: absolute;
+  background-color: #fddb0c;
+}
+
+.horizontal {
+  width: 30px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.vertical {
+  width: 100%;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button-top {
+  cursor: pointer;
+  border-radius: 100px;
+  display: flex;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.button-bottom {
+  cursor: pointer;
+  border-radius: 100px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  width: 45px;
+  height: 45px;
+  background-color: blue;
+}
+
+.triangle {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 16px solid #000;
+}
+
+.button-left {
+  margin: auto;
+}
+
+.buttons-flex {
+  display: flex;
+}
+
+.button-right {
+  cursor: pointer;
+  margin: auto;
+  border-radius: 100px;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: greenyellow;
+}
