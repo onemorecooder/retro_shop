@@ -29,7 +29,7 @@ function Navbar(props) {
           ))}
         </ul>
         <input
-          className="mr-5 ml-auto h-10 border-none rounded-full pl-5 w-80"
+          className="mr-5 ml-auto h-10 border-none rounded-full pl-4 w-80 bg-green-100"
           type="text"
           placeholder="Search"
         ></input>
