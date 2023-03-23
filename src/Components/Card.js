@@ -7,9 +7,12 @@ function Card(props) {
     <div className="flex justify-center">
       {props.cardData.map((content) => (
         <motion.div
-          className="inline-block bg-gray-100 text-black w-72 h-96 rounded-lg m-10 cursor-pointer"
+          className="inline-block bg-gray-100 text-black w-72 h-96 rounded-lg m-10 cursor-pointer shadow-xl"
           whileTap={{ scale: 0.9 }}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{
+            scale: 1.1,
+          }}
+          /* style={{ boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }} */
         >
           <img src={mando} alt="img" className="w-20 m-auto mt-8"></img>
 

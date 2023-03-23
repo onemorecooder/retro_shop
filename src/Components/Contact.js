@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="">
       <div className="grid grid-cols-2 items-center my-20 flex items-stretch">
-        <motion.div className="bg-contact-1 h-auto border-4 border-border-b">
+        <motion.div className="bg-contact-1 h-auto">
           <div className="bg-contact-2 w-96 border-4 border-border-a m-auto rounded-md mt-4">
             <div className="m-6">
               <input
