@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "alt": "Image 1",
+    "title": "Slide 1",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum, velit auctor suscipit maximus, urna metus pellentesque turpis, at rhoncus lectus elit sed eros. "
+  },
+  {
+    "id": 2,
+    "alt": "Image 2",
+    "title": "Slide 2",
+    "text": "Phasellus volutpat, enim sed tincidunt ullamcorper, arcu libero volutpat eros, id ultricies velit velit id eros. Nullam imperdiet aliquet quam, in pretium nibh feugiat ac. "
+  },
+  {
+    "id": 3,
+    "alt": "Image 3",
+    "title": "Slide 3",
+    "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In fermentum turpis nec arcu suscipit, vel pharetra sapien pulvinar. "
+  },
+  {
+    "id": 4,
+    "alt": "Image 4",
+    "title": "Slide 4",
+    "text": "Integer vel ligula sit amet arcu dapibus dictum eu in odio. Sed pellentesque velit at risus ultrices euismod. Maecenas commodo, nulla sit amet faucibus posuere, elit justo iaculis lorem, eget tempor elit libero vel est. "
+  }
+]

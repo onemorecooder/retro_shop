@@ -11,6 +11,7 @@ import ScrollEffect from "./Components/ScrollEffect";
 import Links from "./Components/Links";
 import Contact from "./Components/Contact";
 
+
 function App() {
   return (
     <>

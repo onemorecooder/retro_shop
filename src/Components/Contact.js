@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Contact() {
   return (
     <div className="">
-      <div className="grid grid-cols-2 items-center my-20 flex items-stretch">
+      <div className="grid grid-cols-2 items-center mt-20">
         <motion.div className="bg-contact-1 h-auto">
           <div className="bg-contact-2 w-96 border-4 border-border-a m-auto rounded-md mt-4">
             <div className="m-6">
@@ -44,10 +44,10 @@ function Contact() {
               <motion.div
                 whileTap={{ scale: 0.9 }}
                 whileHover={{ scale: 1.1 }}
-                class="cross"
+                className="cross"
               >
-                <div class="horizontal"></div>
-                <div class="vertical"></div>
+                <div className="horizontal"></div>
+                <div className="vertical"></div>
               </motion.div>
 
               <div className="console-father-two">
@@ -102,9 +102,8 @@ function Contact() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.4175448731!2d-122.48249113349291!3d47.612942764418506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20Washington%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1679420199232!5m2!1ses!2ses"
             width="100%"
             height="320"
-            allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </motion.div>
       </div>

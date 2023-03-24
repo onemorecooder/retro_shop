@@ -1,72 +1,14 @@
-[
-    {
-        "id": 1,
-        "title": "Test",
-        "href1": "Test",
-        "href2": "Test",
-        "href3": "Test",
-        "href4": "Test",
-        "href5": "Test",
-        "text1": "Test",
-        "text2": "Test",
-        "text3": "Test",
-        "text4": "Test",
-        "text5": "Test"
-    },
-    {
-        "id": 2,
-        "title": "Test",
-        "href1": "Test",
-        "href2": "Test",
-        "href3": "Test",
-        "href4": "Test",
-        "href5": "Test",
-        "text1": "Test",
-        "text2": "Test",
-        "text3": "Test",
-        "text4": "Test",
-        "text5": "Test"
-    },
-    {
-        "id": 3,
-        "title": "Test",
-        "href1": "Test",
-        "href2": "Test",
-        "href3": "Test",
-        "href4": "Test",
-        "href5": "Test",
-        "text1": "Test",
-        "text2": "Test",
-        "text3": "Test",
-        "text4": "Test",
-        "text5": "Test"
-    },
-    {
-        "id": 4,
-        "title": "Test",
-        "href1": "Test",
-        "href2": "Test",
-        "href3": "Test",
-        "href4": "Test",
-        "href5": "Test",
-        "text1": "Test",
-        "text2": "Test",
-        "text3": "Test",
-        "text4": "Test",
-        "text5": "Test"
-    },
-    {
-        "id": 5,
-        "title": "Test",
-        "href1": "Test",
-        "href2": "Test",
-        "href3": "Test",
-        "href4": "Test",
-        "href5": "Test",
-        "text1": "Test",
-        "text2": "Test",
-        "text3": "Test",
-        "text4": "Test",
-        "text5": "Test"
-    }
-]
+{
+  "links": [
+    { "id": 1, "text": "¿Qué hace retro-shop?", "url": "#" },
+    { "id": 2, "text": "Nuestro equipo", "url": "#" },
+    { "id": 3, "text": "Productos", "url": "#" },
+    { "id": 4, "text": "¿Dónde estamos?", "url": "#" },
+    { "id": 5, "text": "Partners", "url": "#" },
+    { "id": 6, "text": "Contacto", "url": "#" },
+    { "id": 7, "text": "Centro de soporte", "url": "#" },
+    { "id": 8, "text": "Legal", "url": "#" },
+    { "id": 9, "text": "Términos y condiciones", "url": "#" },
+    { "id": 10, "text": "Cookies", "url": "#" }
+  ]
+}
