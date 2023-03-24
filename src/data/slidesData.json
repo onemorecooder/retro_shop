@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "alt": "Image 1",
-    "title": "Slide 1",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum, velit auctor suscipit maximus, urna metus pellentesque turpis, at rhoncus lectus elit sed eros. "
+    "alt": "Slide 1",
+    "title": "¿Qué ofrecemos?",
+    "text": "Ofrecemos productos de alta calidad para modificar y actualizar tus consolas clásicas, como pantallas retroiluminadas, botoneras, carcasas y baterías recargables."
   },
   {
     "id": 2,
-    "alt": "Image 2",
-    "title": "Slide 2",
-    "text": "Phasellus volutpat, enim sed tincidunt ullamcorper, arcu libero volutpat eros, id ultricies velit velit id eros. Nullam imperdiet aliquet quam, in pretium nibh feugiat ac. "
+    "alt": "Slide 2",
+    "title": "Mejora tu consola retro con nuestros mods",
+    "text": "¿Quieres que tu consola retro tenga un rendimiento mejorado? Con estos mods puedes actualizarla y personalizarla. Desde iluminación LED hasta puertos HDMI, hay muchas opciones para darle una segunda vida a tu consola retro."
   },
   {
     "id": 3,
-    "alt": "Image 3",
-    "title": "Slide 3",
-    "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In fermentum turpis nec arcu suscipit, vel pharetra sapien pulvinar. "
+    "alt": "Slide 3",
+    "title": "Mejora el sonido de tu consola retro con estos mods",
+    "text": "¿Estás cansado del sonido de tu consola retro? Con estos mods podrás mejorar la calidad del sonido y tener una experiencia de juego única. Desde chips de sonido mejorados hasta altavoces de alta fidelidad, hay muchas opciones para personalizar el sonido de tu consola retro."
   },
   {
     "id": 4,
-    "alt": "Image 4",
-    "title": "Slide 4",
-    "text": "Integer vel ligula sit amet arcu dapibus dictum eu in odio. Sed pellentesque velit at risus ultrices euismod. Maecenas commodo, nulla sit amet faucibus posuere, elit justo iaculis lorem, eget tempor elit libero vel est. "
+    "alt": "Slide 4",
+    "title": "Convierte tu consola retro en un centro multimedia",
+    "text": "¿Quieres darle una segunda vida a tu consola retro? Con estos mods podrás actualizarla y personalizarla. Agrega nuevos botones y joysticks hasta pantallas retroiluminadas, ¡Transforma tu consola retro y conviértela en una joya de colección!"
   }
 ]
