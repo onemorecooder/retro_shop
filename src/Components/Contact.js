@@ -86,7 +86,7 @@ function Contact() {
           </div>
         </motion.div>
 
-        <motion.div className="h-full p-8">
+        <motion.div className="lg:h-full lg:p-8 sm:h-fit">
           <h1 className="text-4xl">Contacta ahora</h1>
           <h2 className="text-2xl mb-4">
             Ponte en contacto con nosotros para obtener más información
