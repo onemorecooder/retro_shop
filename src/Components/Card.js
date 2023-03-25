@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function Card(props) {
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-col items-center lg:flex-row lg:justify-center">
       {props.cardData.map((content) => (
         <motion.div
           key={content.id}
@@ -13,7 +13,7 @@ function Card(props) {
           whileHover={{
             scale: 1.1,
           }}
-        /* style={{ boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }} */
+          /* style={{ boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }} */
         >
           <img src={mando} alt="img" className="w-20 m-auto mt-8"></img>
 
