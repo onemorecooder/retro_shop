@@ -1,15 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import linksData from "../data/linksData.json";
-import SocialMedia from "../Components/SocialMedia";
 
 function Links() {
   return (
     <div className="bg-gray-100">
-      <div className="grid grid-cols-2 gap-6 items-center p-20">
-        <div className="flex justify-center items-center mt-16">
-          <div className="w-1/2 flex flex-wrap">
-            <div className="w-1/2 text-center">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-6 lg:items-center lg:p-20">
+        <div className="flex justify-center items-center">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-6 w-full lg:w-1/2 flex flex-wrap">
+            <div className="w-1/2 text-center lg:w-full">
               <h1 className="mb-4 text-xl text-turquesa font-bold">Empresa</h1>
               {linksData.links.slice(0, 5).map((link) => (
                 <a
@@ -21,7 +20,7 @@ function Links() {
                 </a>
               ))}
             </div>
-            <div className="w-1/2 text-center">
+            <div className="w-1/2 text-center lg:w-full">
               <h1 className="mb-4 text-xl text-turquesa font-bold">Soporte</h1>
               {linksData.links.slice(5, 10).map((link) => (
                 <a
@@ -33,11 +32,10 @@ function Links() {
                 </a>
               ))}
             </div>
-            <SocialMedia />
           </div>
         </div>
-        <div className="mx-20">
-          <h1 className="text-3xl font-medium my-6">
+        <div className="mx-4 lg:mx-20">
+          <h1 className="text-2xl lg:text-3xl font-medium my-6">
             ¡Apúntate a nuestro{" "}
             <label className="text-turquesa">Newsteller</label>!
           </h1>
@@ -59,7 +57,7 @@ function Links() {
             >
               Enviar
             </motion.button>
-            <h2 className="text-2xl my-6">
+            <h2 className="text-lg lg:text-2xl my-6">
               En nuestro Newsteller podrás encontrar todo tipo de noticias,
               nuevos productos, tutoriales para poner a punto tu consola y mucho
               más.
