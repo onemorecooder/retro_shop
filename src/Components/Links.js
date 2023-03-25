@@ -1,10 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import linksData from "../data/linksData.json";
+import ScrollToTop from "../Components/ScrollToTop";
 
 function Links() {
   return (
     <div className="bg-gray-100 py-6">
+      <ScrollToTop />
       <div className="lg:grid lg:grid-cols-2 lg:gap-6 lg:items-center lg:p-20">
         <div className="flex justify-center items-center">
           <div className="lg:grid lg:grid-cols-2 lg:gap-6 w-full lg:w-1/2 flex flex-wrap">

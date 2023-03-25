@@ -30,11 +30,10 @@ const Carousel = () => {
       {slideData.map((slide, index) => (
         <motion.div
           key={index}
-          className={`absolute rounded-xl top-0 left-0 h-full w-full bg-cover bg-center flex justify-center items-center text-white ${
-            activeSlide === index
-              ? "opacity-100"
-              : "opacity-0 pointer-events-none"
-          }`}
+          className={`absolute rounded-xl top-0 left-0 h-full w-full bg-cover bg-center flex justify-center items-center text-white ${activeSlide === index
+            ? "opacity-100"
+            : "opacity-0 pointer-events-none"
+            }`}
           style={{ backgroundImage: `url(${images[index]})` }}
           initial={{ opacity: 0 }}
           animate={{ opacity: activeSlide === index ? 1 : 0 }}
@@ -50,37 +49,41 @@ const Carousel = () => {
       ))}
       <div className="hidden lg:flex absolute top-1/2 transform -translate-y-1/2 left-0 items-center z-10">
         <motion.button
-          whileTap={{ scale: 0.9 }}
-          className="text-gray-800 rounded-full py-3 px-6 font-bold hover:bg-gray-300 transition duration-200 ml-6"
+          className="text-gray-800 rounded-full py-3 px-6 font-bold transition ml-6"
           onClick={handlePrevSlide}
+          whileTap={{ scale: 0.9 }}
+          whileHover={{ scale: 1.1 }}
         >
-          <FontAwesomeIcon icon={faArrowAltCircleLeft} size="2x" />
+          <FontAwesomeIcon icon={faArrowAltCircleLeft} className="text-slate-200" size="2x" />
         </motion.button>
       </div>
       <div className="hidden lg:flex absolute top-1/2 transform -translate-y-1/2 right-0 items-center z-10">
         <motion.button
-          whileTap={{ scale: 0.9 }}
-          className="text-gray-800 rounded-full py-3 px-6 font-bold hover:bg-gray-300 transition duration-200 mr-4"
+          className="text-gray-800 rounded-full py-3 px-6 font-bold transition mr-4"
           onClick={handleNextSlide}
+          whileTap={{ scale: 0.9 }}
+          whileHover={{ scale: 1.1 }}
         >
-          <FontAwesomeIcon icon={faArrowAltCircleRight} size="2x" />
+          <FontAwesomeIcon icon={faArrowAltCircleRight} className="text-slate-200" size="2x" />
         </motion.button>
       </div>
       <div className="lg:hidden flex justify-center items-center w-full absolute bottom-0">
         <div className="flex justify-center">
           <motion.button
-            whileTap={{ scale: 0.9 }}
-            className="text-gray-800 rounded-full py-3 px-6 font-bold hover:bg-gray-300 transition duration-200 ml-6"
+            className="text-gray-800 rounded-full py-3 px-6 font-bold  transition ml-6"
             onClick={handlePrevSlide}
+            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.1 }}
           >
-            <FontAwesomeIcon icon={faArrowAltCircleLeft} size="2x" />
+            <FontAwesomeIcon icon={faArrowAltCircleLeft} className="text-slate-200" size="2x" />
           </motion.button>
           <motion.button
-            whileTap={{ scale: 0.9 }}
-            className="text-gray-800 rounded-full py-3 px-6 font-bold hover:bg-gray-300 transition duration-200 mr-4"
+            className="text-gray-800 rounded-full py-3 px-6 font-bold transition mr-4"
             onClick={handleNextSlide}
+            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.1 }}
           >
-            <FontAwesomeIcon icon={faArrowAltCircleRight} size="2x" />
+            <FontAwesomeIcon icon={faArrowAltCircleRight} className="text-slate-200" size="2x" />
           </motion.button>
         </div>
       </div>

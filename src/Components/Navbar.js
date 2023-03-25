@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 function Navbar(props) {
   return (
     <nav className="bg-turquesa">
-      <div className="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
+      <div className="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8 sm:w-screen">
         <motion.img
-          className="w-10 sm:w-14 ml-2 sm:ml-10 cursor-pointer"
+          className="w-10 sm:w-14 mx-auto my-2 sm:m-auto ml-2 sm:ml-10 cursor-pointer"
           src={logo}
           alt="icon"
           whileTap={{ scale: 0.8 }}
@@ -28,13 +28,6 @@ function Navbar(props) {
             </motion.li>
           ))}
         </ul>
-        <div className="sm:block">
-          <input
-            className="h-10 border-none rounded-full px-4 w-60 sm:w-80 bg-green-100"
-            type="text"
-            placeholder="Search"
-          ></input>
-        </div>
       </div>
     </nav>
   );

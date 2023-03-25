@@ -35,7 +35,7 @@ function MainInfo() {
             }}
             src={console}
             alt="img"
-            className="w-4/5 m-auto mt-6 md:mt-0 md:ml-0"
+            className="w-96 m-auto mt-6 md:mt-0 md:ml-0"
           ></motion.img>
         </motion.div>
       </div>
