@@ -4,7 +4,7 @@ import linksData from "../data/linksData.json";
 
 function Links() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 py-6">
       <div className="lg:grid lg:grid-cols-2 lg:gap-6 lg:items-center lg:p-20">
         <div className="flex justify-center items-center">
           <div className="lg:grid lg:grid-cols-2 lg:gap-6 w-full lg:w-1/2 flex flex-wrap">
