@@ -6,7 +6,7 @@ function MainInfo() {
   return (
     <div className="bg-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mx-4 md:mx-20 py-20">
-        <div className="pl-10 md:pr-10 text-center md:text-right w-full">
+        <div className="lg:pl-10 md:pr-10 text-center md:text-right w-full">
           <h1 className="text-5xl font-medium">
             ¿Estás listo para<br></br>encontrar tu{" "}
             <label className="text-turquesa">consola</label>?
