@@ -6,7 +6,7 @@ function Contact() {
     <div className="">
       <div className="lg:grid lg:grid-cols-2 items-center mt-20  sm:flex-col sm:grid-cols-1">
         <motion.div className="bg-contact-1 h-full">
-          <div className="bg-contact-2 w-96 border-4 border-border-a m-auto rounded-md mt-4">
+          <div className="bg-contact-2 lg:w-96 sm:w-80 border-4 border-border-a m-auto rounded-md mt-4">
             <div className="m-6">
               <input
                 placeholder="Name"
@@ -86,7 +86,7 @@ function Contact() {
           </div>
         </motion.div>
 
-        <motion.div className="lg:h-full lg:p-8 sm:h-fit">
+        <motion.div className="h-full p-8">
           <h1 className="text-4xl">Contacta ahora</h1>
           <h2 className="text-2xl mb-4">
             Ponte en contacto con nosotros para obtener más información
