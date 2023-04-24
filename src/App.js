@@ -11,11 +11,14 @@ import ScrollEffect from "./Components/ScrollEffect";
 
 import Links from "./Components/Links";
 import Contact from "./Components/Contact";
-
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
+      <div className="fixed bottom-0 right-0 p-6">
+        <ScrollToTop />
+      </div>
       <ScrollEffect />
       <Navbar data={data} />
       <MainInfo />
