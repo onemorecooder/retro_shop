@@ -1,18 +1,16 @@
 import React from "react";
-import logo from "../Images/icon.png";
 import { motion } from "framer-motion";
+
+import { FaGamepad } from "react-icons/fa";
 
 function Navbar(props) {
   return (
     <nav className="bg-turquesa">
       <div className="flex items-center justify-between h-20 px-4 sm:px-4 lg:px-4">
-        <motion.img
-          className="w-10 sm:w-14 mx-auto my-2 sm:m-auto ml-2 sm:ml-10 cursor-pointer"
-          src={logo}
-          alt="icon"
-          whileTap={{ scale: 0.8 }}
-          whileHover={{ scale: 1.2 }}
-        />
+        <motion.div whileTap={{ scale: 0.8 }} whileHover={{ scale: 1.2 }}>
+          <FaGamepad className="w-14 h-14 cursor-pointer text-white" />
+        </motion.div>
+
         <ul className="hidden sm:flex ml-10 text-focus-text font-bold">
           {props.data.map((content) => (
             <motion.li

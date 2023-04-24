@@ -4,7 +4,7 @@ import console from "../Images/console.png";
 
 function MainInfo() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-white h-screen py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mx-4 md:mx-20 py-20">
         <div className="lg:pl-10 md:pr-10 text-center md:text-right w-full">
           <h1 className="text-5xl font-medium">
